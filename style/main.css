@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.site__header{
+    background-color: rgb(86, 12, 12);
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__link{
+    color: blueviolet;
+}
+.header__list{
+    display: flex;
+}
+.header__item_link{
+    display: inline-block;
+    padding: 20px;
+    color: aliceblue;
+}
